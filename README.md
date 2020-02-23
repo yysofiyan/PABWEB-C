@@ -81,7 +81,7 @@ Contributions of any kind are welcome!
 ----
 
 <p align="center">
-<a href="#"><img src="https://img.shields.io/github/forks/yysofiyan/PABWEB-B.svg?style=plastic" alt="Fork"></a>
-<a href="#"><img src="https://img.shields.io/github/stars/yysofiyan/PABWEB-B.svg?style=plastic" alt="Stars"></a>
+<a href="#"><img src="https://img.shields.io/github/forks/yysofiyan/PABWEB-C.svg" alt="Fork"></a>
+<a href="#"><img src="https://img.shields.io/github/stars/yysofiyan/PABWEB-C.svg" alt="Stars"></a>
 <a href="#"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
