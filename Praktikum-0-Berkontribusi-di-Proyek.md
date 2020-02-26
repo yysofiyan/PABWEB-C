@@ -1,86 +1,272 @@
-# Berkontribusi di Proyek git
-
 ## Tujuan Pembelajaran
+---
 Setelah praktikum ini dilakukan Anda diharapkan dapat:
 
-* Mengingat dan mendemonstrasikan beberapa perintah Git yang penting untuk melakukan pekerjaan individu/Kolaborasi.
-* Mempersiapkan Git repository lokal dan online pada Github.
-* Menghubungkan repository lokal dan online.
+* Mampu bekerja dalam tim dengan git
+* Mampu melakukan workflow git
 
 
-----
-## Bagaimana
+### Persiapan Project
+---
+Sebelum bisa berkontribusi, terlebih dulu kita siapkan repository baik di remote maupun di lokal. Agar bisa menjalankan langkah-langkah berikut dengan baik, pastikan Anda sudah memiliki akun `Github` dan sudah menginstal aplikasi Git di laptop/PC. Cara-caranya sudah pernah saya jelaskan di [praktikum 0](#).
 
-Berikut langkah-langkahnya secara singkat:
+### Fork Repository
+---
+`Forking repository` artinya kita mengcopy repository project asal di akun pembuatnya ke akun kita. Ini biasanya dilakukan karena kita tidak punya akses untuk langsung membuat perubahan di repository asal. Jadi kita buat perubahan di akun sendiri untuk kemudian minta `developer pemilik repo pusat` untuk mengambil perubahan yang kita buat.
 
-1. Fork it!
-2. Buatlah *branch* fitur baru: `git checkout -b NIM_ANDA`
-3. *Commit* perubahannya: `git commit -am 'Add some features'`
-4. *Push* ke branch di *remote*: `git push origin NIM_ANDA`
-5. Buat *pull request*
+Pertama, silahkan anda check akun [yysofiyan](https://github.com/yysofiyan?tab=repositories) *(silahkan cari repositori berdasarkan kelas anda)* kemuadian langkah selanjutnya adalah melakukan `fork repository` ke akun kita.
 
-1. Fork proyek ini. 
-2. Setelah selesai fork, maka repository akan masuk ke daftar repo milik anda.
+Silahkan buka proyek tersebut, lalu klik tombol **fork**
 
-----
-## Time to GO CODE ;)
+![fork](Snapshoot/img/fork.png)
 
-NB: gunakan `git --help` untuk melihat perintah-perintah git lainnya.
+Setelah itu, dia akan membuat fork. Tunggu saja sebentar, kira-kira beberapa detik.
 
-1. Cloning project yang sudah anda fork ke akun anda
+Hasilnya, kita akan memiliki copy dari repo tadi di akun kita sendiri.
 
-        git clone <alamat-repo>
+### Clone Repository
+---
+Agar file-file bisa diedit, kita harus ambil dulu repository tersebut ke laptop/PC kita. Kita membutuhkan URL repository yang bisa didapatkan dengan cara menekan tombol hijau `Clone or Download.`
 
-    Contoh:
+![clone](Snapshoot/img/clone.png)
 
-        git clone git@github.com:yysofiyan/PABWEB-D.git
+HTTPS:
 
-2. Untuk mempermudah pengembangan, hendaknya kita menambahkan repository pusat dengan lokal milik kita agar tidak terjadi konflik dengan kontributor lainnya.
+```https
+https://github.com/yysofiyan/PABWEB-X.git
+```
 
-        git remote add <nama-repo> <alamat-repo>
+SSH:
 
-    Contoh:
+```ssh
+git@github.com:yysofiyan/PABWEB-X.git
+```
+##### Note: Pastikan kita clone repository di akun kita sendiri, bukan di akun repository asal `(yysofiyan)`.
 
-        git remote add upstream git@github.com:yysofiyan/PABWEB-D.git
+Buka `command prompt`, kemudian pindah ke folder yang diinginkan, lalu lakukan `git clone`.
 
-3. Setelah remote repositori selesai, buatlah branch baru agar tidak merusak history branch utama, dan juga untuk memudahkan racking code.
+```bash                                         
+➜  ~ cd desktop/
+➜  desktop git clone https://github.com/yysofiyan/PABWEB-X.git 
 
-        git checkout -b <nama-cabang>
+Cloning into 'PABWEB-X'...
+remote: Enumerating objects: 31, done.
+remote: Counting objects: 100% (31/31), done.
+remote: Compressing objects: 100% (27/27), done.
+remote: Total 31 (delta 3), reused 30 (delta 2), pack-reused 0
+Unpacking objects: 100% (31/31), done.
+➜  desktop 
+```
 
-    Contoh:
+Setelah perintah di atas dijalankan, harusnya di komputer kita akan ada folder baru sesuai nama repository, yaitu `PABWEB-X`. Jangan lupa untuk masuk / pindah ke folder tersebut sebelum menjalankan perintah-perintah berikutnya.
 
-        git checkout -b NIM_ANDA
+###### *(repositori berdasarkan kelas anda)*
 
-4. Di cabang baru ini lah kita akan untuk melakukan perubahan kode, yang nantinya bisa kita push ke repo pusat. Untuk berpindah branch bisa kita gunakan `git checkout <nama-cabang>`, dimana `<nama-cabang>` adalah nama yang anda gunakan pada langkah sebelumnya.
+### Membuat Topic Branch
+---
+Perintah untuk membuat cabang adalah `git branch`, kemudian diikuti dengan nama cabangnya.
 
-5. Setelah melakukan perubahan, kita bisa lakukan commit berisi deskripsi singkat tentang perubahan yang anda lakukan. Tetapi jika ada penambahan file, bisa menggunakan perintah `git add <nama-file-baru>`, atau gunakan `git add .` untuk menambahkan semua perubahan yang ada di direktori tersebut secara rekursif. Setelah itu baru bisa kita commit.
+**Contoh**:
 
-        git commit -m "<pesan singkat>"
+```bash
+git branch <NIM_ANDA>
+git branch A5.123456
+```
+Maka Git akan membuat cabang bernama `A5.123456`
 
-    Contoh:
+Untuk melihat cabang apa saja yang ada di repositori, gunakan perintah `git branch.`
 
-        git commit -m "fix sample project PABWEB-D"
+**output**:
 
-6. Setelah selesai melakukan commit, kita akan melakukan persiapan untuk membuat *pull request* (biasa disingkat PR) ke repo pusat. Pertama kita pindah branch kembali ke master. 
+```bash
+➜  PABWEB-X (master) ✔ git branch
 
-        git checkout master
+A5.123456
+* master
+(END)
+```
+**Note: Tanda bintang `(*)` artinya cabang yang sedang aktif atau Kita sedang berada di sana.**
 
-7. Setelah itu, kita akan mengambil kode lagi dari pusat, untuk memastikan tidak terdapat konflik pada kontribusi kode kita. Konflik dapat terjadi jika dua atau lebih kontributor melakukan perubahan pada satu berkas, terutama jika perubahan dilakukan pada baris yang sama, terlepas dari apakah tujuan perubahan sama atau tidak.
+Pada repositori, buatlah sebuah cabang baru dengan nama NIM_ANDA
 
-        git fetch upstream
-        git merge upstream/master
+```git
+git branch A5.123456
+```
+Setelah itu, pindah ke cabang yang baru saja kita buat dengan perintah:
 
-8. Dengan proses diatas, setidaknya kita telah bisa memastikan bahwa tidak ada konflik dengan repo pusat. Sekarang kita kembali ke branch lokal development kita `NIM_ANDA`.
+```git
+git checkout A5.123456
+```
+Outputnya seperti ini
 
-        git checkout NIM_ANDA
+```zsh
+➜  PABWEB-X (master) ✔ git checkout A5.123456                         
+Switched to branch 'A5.123456'
+➜  PABWEB-X (A5.123456) ✔ git status
+On branch A5.123456
+nothing to commit, working tree clean
+```
+Selanjutnya silahkan buka dengan teks editor dan lakukan modifikasi.
 
-9. Setelah itu, kita gabungkan cabang tersebut dengan cabang utama, sehingga kontribusi dapat dikirimkan kembali ke repositori pusat dengan perintah `git rebase <nama-branch>`.
+Sebagai contoh, saya membukanya dengan `VS Code.`
 
-        git rebase master
+Lalu pada `branch NIM` anda buat direktori dengan nama `NIM_ANDA` kemudian
 
-10. Sebelum push ke repositori pusat, kita akan push ke repository hasil fork di awal pembahasan tadi.
+di dalam direktori `NIM_ANDA` buat `sub direktori` dengan nama _**Praktikum_n**_.
 
-        git push origin NIM_ANDA
+![vscode](Snapshoot/img/vscode.png)
 
-11. Setelah di push, kita akan melakukan pull request dan membandingkan perubahan yang telah anda lakukan terhadap repo pusat. Anda juga bisa menyisipkan pesan untuk memberitahukan developer pemilik repo pusat tentang apa yang anda lakukan. Setelah yakin terhadap perubahan yang telah anda lakukan, silahkan pilih create pull request dan menunggu tanggapan dari pemilik repo pusat.
+![checkout](Snapshoot/img/checkout.png)
 
+##### **Note**: Jangan lupa untuk menggunakan printah `git status `untuk melihat `status repositori.`
+
+Kita sudah menambahkan `direktori A5.123456`. Selanjutnya kita lakukan `commit.`
+
+```git
+git add A5.123456
+git commit -m "membuat direktori A5.123456"
+```
+
+Outputnya seperti ini
+
+![vscode-1](Snapshoot/img/vscode-1.png)
+
+revisi kita pada cabang `A5.123456` sudah disimpan. Sekarang coba kembali ke `cabang master`.
+
+```git
+git checkout master
+```
+
+Apakah anda menemukan `direktori/sub direktori` dan `file A5.123456` ?
+
+Pasti tidak!
+
+![vscode-checkout](Snapshoot/img/vscode-checkout.png)
+
+Sekarang kembali lagi ke cabang `A5.123456.`
+
+```git
+git checkout A5.123456
+```
+
+Kemudian Cek lagi, apakah sekarang `direktori/sub direktori dan file A5.123456` sudah ada?
+
+Ternyata ada. kita bisa mengambil kesimpulan, kalau perubahan pada cabang `A5.123456` tidak akan berpengaruh di cabang `master.`
+
+![vscode-2-checkout](Snapshoot/img/vscode-2-checkout.png)
+
+### Menggabungkan Cabang
+---
+Anggaplah kita sudah selesai membuat `direktori/sub direktori dan menambahkan file` di cabang `A5.123456` Sekarang kita ingin Menggabungkannya denga cabang `master (utama).`
+
+Pertama, kita harus pindah dulu ke `cabang master.`
+
+```git
+git checkout master
+```
+Setelah itu, barulah kita bisa menggabungkan dengan perintah `git merge.`
+
+```git
+git merge A5.123456
+```
+Sekarang lihat, `direktori/sub direktori dan file A5.123456` sudah ada di `cabang master.`
+
+![vscode-merge](Snapshoot/img/vscode-merge.png)
+
+### Upload Perubahan
+---
+Berikutnya, kita upload perubahan ke `Github`, karena langkah sebelumnya cuma menyimpan di lokal saja
+
+Repository yang kita *clone* dari Github, akan otomatis `membuat remote` bernama `origin.`
+
+Untuk melihatnya, gunakan perintah
+
+```git
+git remote -v
+```
+![vscode-remote-v](Snapshoot/img/vscode-3-git-remote-v.png)
+
+Alamat tujuan *push* dan *fetch* mengarah ke alamat repository di akun kita.
+
+Silahkan melakukan push dengan perintah berikut.
+
+```git
+git push
+```
+![vsode-push](Snapshoot/img/vscode-push.png)
+
+Setelah selesai, coba lihat repository di akun Github-mu.
+
+Apakah berhasil di-push atau tidak?
+
+![vscode-github](Snapshoot/img/vscode-github.png)
+
+Kalau berhasil, silahkan lanjutkan ke langkah berikutnya.
+
+### Membuat Pull Request
+---
+`Pull Request` adalah istilah yang bisa kita artikan sebagai permintaan untuk menggabungkan kode.
+
+Kita sudah membuat perubahan di `repository hasil fork`, lalu ingin menggabungkan dengan `repository sumber.`
+
+Maka kita harus membuat `Pull Request.`
+
+Silahkan klik tombol `New Pull Request pada repository`
+
+`cek / compare` perubahan apa yang telah anda lakukan di `branch anda` pada `branch master milik repo pusat`,
+
+![vscode-pullrequest](Snapshoot/img/vscode-pullrequest.png)
+
+dan anda juga bisa `menyisipkan pesan` untuk memberitahukan `developer pemilik repo pusat` tentang apa yang anda lakukan, setelah yakin terhadap perubahan yang telah anda lakukan silahkan pilih `create pull request`
+
+![vsode-pullrequest](Snapshoot/img/vscode-create-pullrequest.png)
+
+![finish](Snapshoot/img/vscode-pullrequest-f.png)
+
+Hooray!🎉Anda telah membuat kontribusi! anda tinggal menunggu pemilik repo pusat untuk menanggapi di terima tidaknya kontribusi anda. 
+
+### Setelah Pull Request Diterima
+---
+![vscode-merged](Snapshoot/img/vscode-marged.png)
+
+Horee …. 🥳🎉 Pull request kita diterima, biasanya akan ada tulisan *Merged* berwarna ungu. Selanjutnya apa yang kita lakukan?
+
+Bila pull request kita diterima, harusnya perubahan yang kita lakukan sudah ada di `upstream`. Coba kita lihat dulu.
+
+```git
+git checkout master
+git pull
+```
+outpunya seperti ini
+
+```git
+➜  PABWEB-X (master) ✔ git pull 
+Already up to date. 
+```
+
+Kondisi `master` kita sudah **up to date** dengan `upstream`. Sekarang lihat daftar perubahannya dengan perintah 
+
+```git
+git log --oneline
+```
+
+![git log --oneline](Snapshoot/img/git&#32;log&#32;--online.png)
+
+Karena perubahan kita sudah terkandung dalam `upstream`, kita bisa menghapus `topic branch` kita tadi.
+
+```git
+git branch -D A5.123456
+```
+Hapus juga yang ada di Github
+
+```git
+git push origin :A5.123456
+```
+![vscode-git-D](Snapshoot/img/vscode-git-branch-D.png)
+
+Artinya, push **NULL** ke **origin** untuk menggantikan **A5.123456**, atau bahasa gampangnya **HAPUS**
+
+### Referensi
+---
+1. [nvie.com](https://nvie.com/posts/a-successful-git-branching-model/)
+2. [try.github.io](https://try.github.io)
