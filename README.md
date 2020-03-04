@@ -1,5 +1,5 @@
 # Repositori Praktikum Pengembangan Aplikasi Berbasis Web
-#### Group : C , Hari & Jam: Sabtu - 08:00 s.d 11:20, ruang:R5
+#### Group : C , Hari & Jam: Rabu - 09:40 s.d 13:20, ruang:R2
 
 ## Alur Pengumpulan Tugas ke Repositori Ini
 0. **Fork** Repositori ini.
