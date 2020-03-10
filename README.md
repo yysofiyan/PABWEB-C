@@ -1,5 +1,5 @@
 # Repositori Praktikum Pengembangan Aplikasi Berbasis Web
-#### Group : C , Hari & Jam: Sabtu - 08:00 s.d 11:20, ruang:R5
+#### Group : C , Hari & Jam: Rabu - 09:40 s.d 13:20, ruang:R2
 
 ## Alur Pengumpulan Tugas ke Repositori Ini
 0. **Fork** Repositori ini.
@@ -47,11 +47,23 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="#"><img src="https://avatars0.githubusercontent.com/u/34052001?s=460&v=4" width="100px;" alt=""/><br /><sub><b>Yanyan Sofiyan, M.Kom</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
     <!-- Baris Pertama -->
     <!-- isi profile akun github anda di bawah baris ke 2 -->
-
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars3.githubusercontent.com/u/61339462?s=400&u=18856dff85f11daf3acc697b82265701f82a62a4&v=4" width="100px;" alt="Ramdani Surya M."/>
+        <br>
+        <sub><b>Ramdani Surya Manggala</b></sub>
+      </a>
+      <br>
+      <a href="https://github.com/A2-1800105/PABWEB-C" title="Link Repo">🔗</a>
+      <a href="#" title="Documentation">📖</a>
+      <a href="https://github.com/A2-1800105" title="Profile">👀</a>
+      <a href="#" title="Talks">📢</a>
+    </td>
   </tr>
   <tr>
      <!-- Baris 2 Max 7 Akun -->
      <td align="center"><a href="#"><img src="https://c7.uihere.com/files/706/515/789/computer-icons-facepalm-clip-art-share-icon-portable-network-graphics-vector-students.jpg" width="100px;" alt=""/><br /><sub><b>DAVO ALGIYANA JANIAR</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
+     <td align="center"><a href="#"><img src="https://c7.uihere.com/files/706/515/789/computer-icons-facepalm-clip-art-share-icon-portable-network-graphics-vector-students.jpg" width="100px;" alt=""/><br /><sub><b>Cucum Eliyanti</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
 
   </tr>
   <tr>
