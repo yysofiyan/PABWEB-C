@@ -166,7 +166,7 @@ $cari = (isset($_POST['cari'])) ? $_POST['cari'] : '';
                             <a title="Ubah" class="btn btn-outline-info" href="?page=ubah&nis=<?= $data['nis']; ?>">
                                 <i class="fas fa-edit"></i>
                             </a>
-                            <a title="Hapus" class="btn btn-outline-danger" href="proses_hapus.php?nis=<?= $data['nis']; ?>" onclick="return confirm('Anda yakin ingin menghapus siswa <?= $data['nama']; ?>?');">
+                            <a title="Hapus" class="btn btn-outline-danger" href="proses_hapus.php?nis=<?= $data['nis']; ?>" onclick="return confirm('Anda yakin ingin menghapus <?= $data['nama']; ?>?');">
                                 <i class="fas fa-trash"></i>
                             </a>
                         </td>

@@ -17,7 +17,7 @@ require_once('config/database.php');
     <link rel="stylesheet" href="assets/plugins/fontawesome-free-5.4.2-web/css/all.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <title>Data Siswa</title>
+    <title>Ramdani - Data Siswa</title>
 </head>
 
 <body>
