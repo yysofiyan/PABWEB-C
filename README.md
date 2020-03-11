@@ -72,11 +72,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <!-- Baris ke 3 Max 7 Akun-->
-<<<<<<< HEAD
     
-=======
-    <td align="center"><a href="#"><img src="https://c7.uihere.com/files/706/515/789/computer-icons-facepalm-clip-art-share-icon-portable-network-graphics-vector-students.jpg" width="100px;" alt=""/><br /><sub><b>Nida Nur Aini</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
->>>>>>> 21ea54f8c49f9235240cf642d1099ef910d667ce
   </tr>
   <tr>
     <!-- Baris Ke 4 Mak 7 Akun-->
