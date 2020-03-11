@@ -1,1 +1,0 @@
-rian andika
