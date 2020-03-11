@@ -48,7 +48,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <!-- Baris Pertama -->
     <!-- isi profile akun github anda di bawah baris ke 2 -->
     <td align="center"><a href="#"><img 
-        src="https://avatars3.githubusercontent.com/u/61339462?s=400&u=18856dff85f11daf3acc697b82265701f82a62a4&v=4" width="100px;"alt="Ramdani Surya M." /><br> <sub><b>Ramdani Surya Manggala</b></sub></a><br><a href="https://github.com/A2-1800105/PABWEB-C" title="Link Repo">🔗</a><a href="#" title="Documentation">📖</a><a href="https://github.com/A2-1800105" title="Profile">👀</a><a href="#" title="Talks">📢</a></td>
+        src="https://avatars3.githubusercontent.com/u/61339462?s=400&u=18856dff85f11daf3acc697b82265701f82a62a4&v=4" width="100px;"alt="Ramdani Surya M." /><br> <sub><b>Ramdani Surya Manggala 🥇</b></sub></a><br><a href="https://github.com/A2-1800105/PABWEB-C" title="Link Repo">🔗</a><a href="#" title="Documentation">📖</a><a href="https://github.com/A2-1800105" title="Profile">👀</a><a href="#" title="Talks">📢</a></td>
     <td align="center"><a href="#"><img
         src="https://c7.uihere.com/files/706/515/789/computer-icons-facepalm-clip-art-share-icon-portable-network-graphics-vector-students.jpg"
         width="100px;" alt="" /><br /><sub><b>Melina Wida Winingsih</b></sub></a><br /><a href="#"
