@@ -1,4 +1,12 @@
 # Repositori Praktikum Pengembangan Aplikasi Berbasis Web
+
+<p align="left">
+<a href="#"><img src="http://hits.dwyl.com/yysofiyan/PABWEB-C.svg"></a>
+<a href="#"><img src="https://img.shields.io/bitbucket/pr-raw/yysofiyan/PABWEB-C?style=flat-square"></a>
+<a href="#"><img src="https://img.shields.io/github/repo-size/yysofiyan/PABWEB-C?style=flat-square"></a>
+<a href="#"><img src="https://img.shields.io/github/commit-activity/w/yysofiyan/PABWEB-C?style=flat-square"></a>
+</p>
+
 #### Group : C , Hari & Jam: Rabu - 09:40 s.d 13:20, ruang:R2
 
 ## Alur Pengumpulan Tugas ke Repositori Ini
@@ -25,6 +33,8 @@
 1. [Tools/Library](http://bit.ly/2tvgSYm) 📥 | *Gunakan 💌 Kampus*
 2. [Visual Studio Code](https://code.visualstudio.com) 📥
 3. [Modul Praktikum](https://github.com/yysofiyan/PABWEB-C/blob/master/Modul%20Praktikum%20Pengembangan%20Aplikasi%20Berbasis%20Web%20(1)%20(1)%20(2).pdf) 📥
+4. [Modul Praktikum Codeigniter](https://github.com/yysofiyan/PABWEB-C/tree/master/Modul%20Praktikum%20Codeigniter) 📥🔥
+5. [Modul Praktikum Laravel](#) 
 
 ## Referensi 📖
 
