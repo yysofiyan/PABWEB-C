@@ -68,7 +68,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
         width="100px;" alt="" /><br /><sub><b>DAVO ALGIYANA JANIAR</b></sub></a><br /><a href="#"
         title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#"title="Talks">📢</a></td>
     <td align="center"><a href="#"><img src="https://avatars1.githubusercontent.com/u/61367730?s=460&v=4" width="100px;"
-        alt="" /><br /><sub><b>Cucum Eliyanti</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#"
+        alt="" /><br /><sub><b>Cucum Eliyanti 🥇</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#"
         title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
   </tr>
   <tr>
