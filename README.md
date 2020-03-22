@@ -1,5 +1,13 @@
 # Repositori Praktikum Pengembangan Aplikasi Berbasis Web
-#### Group : C , Hari & Jam: Sabtu - 08:00 s.d 11:20, ruang:R5
+
+<p align="left">
+<a href="#"><img src="http://hits.dwyl.com/yysofiyan/PABWEB-C.svg"></a>
+<a href="#"><img src="https://img.shields.io/bitbucket/pr-raw/yysofiyan/PABWEB-C?style=flat-square"></a>
+<a href="#"><img src="https://img.shields.io/github/repo-size/yysofiyan/PABWEB-C?style=flat-square"></a>
+<a href="#"><img src="https://img.shields.io/github/commit-activity/w/yysofiyan/PABWEB-C?style=flat-square"></a>
+</p>
+
+#### Group : C , Hari & Jam: Rabu - 09:40 s.d 13:20, ruang:R2
 
 ## Alur Pengumpulan Tugas ke Repositori Ini
 0. **Fork** Repositori ini.
@@ -22,9 +30,11 @@
 
 ## Tools, Library and Modul Praktikum 👨🏻‍💻📕⚙️
 
-1. [Tools/Library](http://bit.ly/2tvgSYm) 📥
+1. [Tools/Library](http://bit.ly/2tvgSYm) 📥 | *Gunakan 💌 Kampus*
 2. [Visual Studio Code](https://code.visualstudio.com) 📥
-3. [Modul Praktikum](https://github.com/yysofiyan/PABWEB-B/blob/master/Modul%20Praktikum%20Pengembangan%20Aplikasi%20Berbasis%20Web%20(1)%20(1)%20(2).pdf) 📥
+3. [Modul Praktikum](https://github.com/yysofiyan/PABWEB-C/blob/master/Modul%20Praktikum%20Pengembangan%20Aplikasi%20Berbasis%20Web%20(1)%20(1)%20(2).pdf) 📥
+4. [Modul Praktikum Codeigniter](https://github.com/yysofiyan/PABWEB-C/tree/master/Modul%20Praktikum%20Codeigniter) 📥🔥
+5. [Modul Praktikum Laravel](#) 
 
 ## Referensi 📖
 
@@ -47,6 +57,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="#"><img src="https://avatars0.githubusercontent.com/u/34052001?s=460&v=4" width="100px;" alt=""/><br /><sub><b>Yanyan Sofiyan, M.Kom</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
     <!-- Baris Pertama -->
     <!-- isi profile akun github anda di bawah baris ke 2 -->
+
     <td align="center">
       <a href="#">
         <img src="https://avatars3.githubusercontent.com/u/61339462?s=400&u=18856dff85f11daf3acc697b82265701f82a62a4&v=4" width="100px;" alt="Ramdani Surya M."/>
@@ -55,27 +66,54 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       </a>
       <br>
       <a href="https://github.com/A2-1800105/PABWEB-C" title="Link Repo">🔗</a>
-      <a href="https://a2-1800105.000webhostapp.com/" title="Documentation">📖</a>
+      <a href="" title="Documentation">📖</a>
       <a href="https://github.com/A2-1800105" title="Profile">👀</a>
       <a href="#" title="Talks">📢</a>
     </td>
+
+    <td align="center"><a href="#"><img 
+        src="https://avatars3.githubusercontent.com/u/61339462?s=400&u=18856dff85f11daf3acc697b82265701f82a62a4&v=4" width="100px;"alt="Ramdani Surya M." /><br> <sub><b>Ramdani Surya Manggala 🥇</b></sub></a><br><a href="https://github.com/A2-1800105/PABWEB-C" title="Link Repo">🔗</a><a href="#" title="Documentation">📖</a><a href="https://github.com/A2-1800105" title="Profile">👀</a><a href="#" title="Talks">📢</a></td>
+    <td align="center"><a href="#"><img
+        src="https://c7.uihere.com/files/706/515/789/computer-icons-facepalm-clip-art-share-icon-portable-network-graphics-vector-students.jpg"
+        width="100px;" alt="" /><br /><sub><b>Melina Wida Winingsih</b></sub></a><br /><a href="#"
+        title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#"title="Talks">📢</a></td>
+    <td align="center"><a href="#"><img
+        src="https://c7.uihere.com/files/706/515/789/computer-icons-facepalm-clip-art-share-icon-portable-network-graphics-vector-students.jpg"
+        width="100px;" alt="" /><br /><sub><b>DAVO ALGIYANA JANIAR</b></sub></a><br /><a href="#"
+        title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#"title="Talks">📢</a></td>
+    <td align="center"><a href="#"><img src="https://avatars1.githubusercontent.com/u/61367730?s=460&v=4" width="100px;"
+        alt="" /><br /><sub><b>Cucum Eliyanti 🥇</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#"
+        title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
+
   </tr>
   <tr>
      <!-- Baris 2 Max 7 Akun -->
-     <td align="center"><a href="#"><img src="https://c7.uihere.com/files/706/515/789/computer-icons-facepalm-clip-art-share-icon-portable-network-graphics-vector-students.jpg" width="100px;" alt=""/><br /><sub><b>ISI NAMA ANDA</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
+     <td align="center"><a href="#"><img src="https://c7.uihere.com/files/706/515/789/computer-icons-facepalm-clip-art-share-icon-portable-network-graphics-vector-students.jpg" width="100px;" alt=""/><br /><sub><b>Agung sopian</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
+    <td align="center"><a href="#"><img src="https://avatars0.githubusercontent.com/u/61607522?s=460&v=4" width="100px;" alt=""/><br /><sub><b>Aji Abdillah Gymnastiar</b></sub></a><br /><a href="https://github.com/ajiabdillahgymnastiar/PABWEB-C" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="https://github.com/ajiabdillahgymnastiar" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
+    <td align="center"><a href="#"><img src="https://c7.uihere.com/files/706/515/789/computer-icons-facepalm-clip-art-share-icon-portable-network-graphics-vector-students.jpg" width="100px;" alt=""/><br /><sub><b>Sugih Sopian</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
+   <td align="center"><a href="#"><img src="https://c7.uihere.com/files/706/515/789/computer-icons-facepalm-clip-art-share-icon-portable-network-graphics-vector-students.jpg" width="100px;" alt=""/><br /><sub><b>RIAN ANDIKA</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
+   <td align="center"><a href="#"><img src="https://c7.uihere.com/files/706/515/789/computer-icons-facepalm-clip-art-share-icon-portable-network-graphics-vector-students.jpg" width="100px;" alt=""/><br /><sub><b>Nida Nur Aini</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
 
   </tr>
   <tr>
     <!-- Baris ke 3 Max 7 Akun-->
-    <td align="center"><a href="#"><img src="https://c7.uihere.com/files/706/515/789/computer-icons-facepalm-clip-art-share-icon-portable-network-graphics-vector-students.jpg" width="100px;" alt=""/><br /><sub><b>ISI NAMA ANDA</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
+    <td align="center">
+      <a href="#">
+      <img src="https://c7.uihere.com/files/706/515/789/computer-icons-facepalm-clip-art-share-icon-portable-network-graphics-vector-students.jpg" width="100px;" alt=""/><br />
+      <sub><b>Iqbal Nurhayadin</b></sub></a><br />
+      <a href="https://github.com/iqbalnurhayadin/PABWEB-C" title="Link Repo">🔗</a>
+      <a href="https://a2-1800069.000webhostapp.com/" title="Documentation">📖</a>
+      <a href="https://github.com/iqbalnurhayadin" title="Profile">👀</a>
+      <a href="#" title="Talks">📢</a>
+    </td>
   </tr>
   <tr>
     <!-- Baris Ke 4 Mak 7 Akun-->
-    <td align="center"><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT3hGJUo5j3nTTldqbXyDsugTGvJYpV5_2jtc-oyOv0_xS-QtQ3" width="100px;" alt=""/><br /><sub><b>ISI NAMA ANDA</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
+   
   </tr>
   <tr>
    <!-- Baris Ke 5 Mak 7 Akun-->
-    <td align="center"><a href="#"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT3hGJUo5j3nTTldqbXyDsugTGvJYpV5_2jtc-oyOv0_xS-QtQ3" width="100px;" alt=""/><br /><sub><b>ISI NAMA ANDA</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
+    
   </tr>
   <tr>
 
@@ -92,7 +130,7 @@ Contributions of any kind are welcome!
 ----
 
 <p align="center">
-<a href="#"><img src="https://img.shields.io/github/forks/yysofiyan/PABWEB-B.svg?style=plastic" alt="Fork"></a>
-<a href="#"><img src="https://img.shields.io/github/stars/yysofiyan/PABWEB-B.svg?style=plastic" alt="Stars"></a>
+<a href="#"><img src="https://img.shields.io/github/forks/yysofiyan/PABWEB-C.svg" alt="Fork"></a>
+<a href="#"><img src="https://img.shields.io/github/stars/yysofiyan/PABWEB-C.svg" alt="Stars"></a>
 <a href="#"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>

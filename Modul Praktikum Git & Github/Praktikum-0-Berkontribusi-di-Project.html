@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Tujuan Pembelajaran</title>
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+        
+        <style>
+.task-list-item { list-style-type: none; } .task-list-item-checkbox { margin-left: -20px; vertical-align: middle; }
+</style>
+        <style>
+            body {
+                font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'Ubuntu', 'Droid Sans', sans-serif;
+                font-size: 14px;
+                line-height: 1.6;
+            }
+        </style>
+        
+        
+    </head>
+    <body class="vscode-light">
+        <h2 id="tujuan-pembelajaran">Tujuan Pembelajaran</h2>
+<hr>
+<p>Setelah praktikum ini dilakukan Anda diharapkan dapat:</p>
+<ul>
+<li>Mampu bekerja dalam tim dengan git</li>
+<li>Mampu melakukan workflow git</li>
+</ul>
+<h3 id="persiapan-project">Persiapan Project</h3>
+<hr>
+<p>Sebelum bisa berkontribusi, terlebih dulu kita siapkan repository baik di remote maupun di lokal. Agar bisa menjalankan langkah-langkah berikut dengan baik, pastikan Anda sudah memiliki akun <code>Github</code> dan sudah menginstal aplikasi Git di laptop/PC. Cara-caranya sudah pernah saya jelaskan di <a href="#">praktikum 0</a>.</p>
+<h3 id="fork-repository">Fork Repository</h3>
+<hr>
+<p><code>Forking repository</code> artinya kita mengcopy repository project asal di akun pembuatnya ke akun kita. Ini biasanya dilakukan karena kita tidak punya akses untuk langsung membuat perubahan di repository asal. Jadi kita buat perubahan di akun sendiri untuk kemudian minta <code>developer pemilik repo pusat</code> untuk mengambil perubahan yang kita buat.</p>
+<p>Pertama, silahkan anda check akun <a href="https://github.com/yysofiyan?tab=repositories">yysofiyan</a> <em>(silahkan cari repositori berdasarkan kelas anda)</em> kemuadian langkah selanjutnya adalah melakukan <code>fork repository</code> ke akun kita.</p>
+<p>Silahkan buka proyek tersebut, lalu klik tombol <strong>fork</strong></p>
+<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-A/Snapshoot/img/fork.png" alt="fork"></p>
+<p>Setelah itu, dia akan membuat fork. Tunggu saja sebentar, kira-kira beberapa detik.</p>
+<p>Hasilnya, kita akan memiliki copy dari repo tadi di akun kita sendiri.</p>
+<h3 id="clone-repository">Clone Repository</h3>
+<hr>
+<p>Agar file-file bisa diedit, kita harus ambil dulu repository tersebut ke laptop/PC kita. Kita membutuhkan URL repository yang bisa didapatkan dengan cara menekan tombol hijau <code>Clone or Download.</code></p>
+<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-A/Snapshoot/img/clone.png" alt="clone"></p>
+<p>HTTPS:</p>
+<pre><code class="language-https"><div><span class="hljs-attribute">https://github.com/yysofiyan/PABWEB-X.git
+</span></div></code></pre>
+<p>SSH:</p>
+<pre><code class="language-ssh"><code><div>git@github.com:yysofiyan/PABWEB-X.git
+</div></code></code></pre>
+<h5 id="note-pastikan-kita-clone-repository-di-akun-kita-sendiri-bukan-di-akun-repository-asal-yysofiyan">Note: Pastikan kita clone repository di akun kita sendiri, bukan di akun repository asal <code>(yysofiyan)</code>.</h5>
+<p>Buka <code>command prompt</code>, kemudian pindah ke folder yang diinginkan, lalu lakukan <code>git clone</code>.</p>
+<pre><code class="language-bash"><div>➜  ~ <span class="hljs-built_in">cd</span> desktop/
+➜  desktop git <span class="hljs-built_in">clone</span> https://github.com/yysofiyan/PABWEB-X.git 
+
+Cloning into <span class="hljs-string">'PABWEB-X'</span>...
+remote: Enumerating objects: 31, <span class="hljs-keyword">done</span>.
+remote: Counting objects: 100% (31/31), <span class="hljs-keyword">done</span>.
+remote: Compressing objects: 100% (27/27), <span class="hljs-keyword">done</span>.
+remote: Total 31 (delta 3), reused 30 (delta 2), pack-reused 0
+Unpacking objects: 100% (31/31), <span class="hljs-keyword">done</span>.
+➜  desktop 
+</div></code></pre>
+<p>Setelah perintah di atas dijalankan, harusnya di komputer kita akan ada folder baru sesuai nama repository, yaitu <code>PABWEB-X</code>. Jangan lupa untuk masuk / pindah ke folder tersebut sebelum menjalankan perintah-perintah berikutnya.</p>
+<h6 id="repositori-berdasarkan-kelas-anda"><em>(repositori berdasarkan kelas anda)</em></h6>
+<h3 id="membuat-topic-branch">Membuat Topic Branch</h3>
+<hr>
+<p>Perintah untuk membuat cabang adalah <code>git branch</code>, kemudian diikuti dengan nama cabangnya.</p>
+<p><strong>Contoh</strong>:</p>
+<pre><code class="language-bash"><div>git branch &lt;NIM_ANDA&gt;
+git branch A5.123456
+</div></code></pre>
+<p>Maka Git akan membuat cabang bernama <code>A5.123456</code></p>
+<p>Untuk melihat cabang apa saja yang ada di repositori, gunakan perintah <code>git branch.</code></p>
+<p><strong>output</strong>:</p>
+<pre><code class="language-bash"><div>➜  PABWEB-X (master) ✔ git branch
+
+A5.123456
+* master
+(END)
+</div></code></pre>
+<p><strong>Note: Tanda bintang <code>(*)</code> artinya cabang yang sedang aktif atau Kita sedang berada di sana.</strong></p>
+<p>Pada repositori, buatlah sebuah cabang baru dengan nama NIM_ANDA</p>
+<pre><code class="language-git"><code><div>git branch A5.123456
+</div></code></code></pre>
+<p>Setelah itu, pindah ke cabang yang baru saja kita buat dengan perintah:</p>
+<pre><code class="language-git"><code><div>git checkout A5.123456
+</div></code></code></pre>
+<p>Outputnya seperti ini</p>
+<pre><code class="language-zsh"><div>➜  PABWEB-X (master) ✔ git checkout A5.123456                         
+Switched to branch <span class="hljs-string">'A5.123456'</span>
+➜  PABWEB-X (A5.123456) ✔ git status
+On branch A5.123456
+nothing to commit, working tree clean
+</div></code></pre>
+<p>Selanjutnya silahkan buka dengan teks editor dan lakukan modifikasi.</p>
+<p>Sebagai contoh, saya membukanya dengan <code>VS Code.</code></p>
+<p>Lalu pada <code>branch NIM</code> anda buat direktori dengan nama <code>NIM_ANDA</code> kemudian</p>
+<p>di dalam direktori <code>NIM_ANDA</code> buat <code>sub direktori</code> dengan nama <em><strong>Praktikum_n</strong></em>.</p>
+<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-A/Snapshoot/img/vscode.png" alt="vscode"></p>
+<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-A/Snapshoot/img/checkout.png" alt="checkout"></p>
+<h5 id="note-jangan-lupa-untuk-menggunakan-printah-git-status-untuk-melihat-status-repositori"><strong>Note</strong>: Jangan lupa untuk menggunakan printah <code>git status </code>untuk melihat <code>status repositori.</code></h5>
+<p>Kita sudah menambahkan <code>direktori A5.123456</code>. Selanjutnya kita lakukan <code>commit.</code></p>
+<pre><code class="language-git"><code><div>git add A5.123456
+git commit -m &quot;membuat direktori A5.123456&quot;
+</div></code></code></pre>
+<p>Outputnya seperti ini</p>
+<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-A/Snapshoot/img/vscode-1.png" alt="vscode-1"></p>
+<p>revisi kita pada cabang <code>A5.123456</code> sudah disimpan. Sekarang coba kembali ke <code>cabang master</code>.</p>
+<pre><code class="language-git"><code><div>git checkout master
+</div></code></code></pre>
+<p>Apakah anda menemukan <code>direktori/sub direktori</code> dan <code>file A5.123456</code> ?</p>
+<p>Pasti tidak!</p>
+<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-A/Snapshoot/img/vscode-checkout.png" alt="vscode-checkout"></p>
+<p>Sekarang kembali lagi ke cabang <code>A5.123456.</code></p>
+<pre><code class="language-git"><code><div>git checkout A5.123456
+</div></code></code></pre>
+<p>Kemudian Cek lagi, apakah sekarang <code>direktori/sub direktori dan file A5.123456</code> sudah ada?</p>
+<p>Ternyata ada. kita bisa mengambil kesimpulan, kalau perubahan pada cabang <code>A5.123456</code> tidak akan berpengaruh di cabang <code>master.</code></p>
+<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-A/Snapshoot/img/vscode-2-checkout.png" alt="vscode-2-checkout"></p>
+<h3 id="menggabungkan-cabang">Menggabungkan Cabang</h3>
+<hr>
+<p>Anggaplah kita sudah selesai membuat <code>direktori/sub direktori dan menambahkan file</code> di cabang <code>A5.123456</code> Sekarang kita ingin Menggabungkannya denga cabang <code>master (utama).</code></p>
+<p>Pertama, kita harus pindah dulu ke <code>cabang master.</code></p>
+<pre><code class="language-git"><code><div>git checkout master
+</div></code></code></pre>
+<p>Setelah itu, barulah kita bisa menggabungkan dengan perintah <code>git merge.</code></p>
+<pre><code class="language-git"><code><div>git merge A5.123456
+</div></code></code></pre>
+<p>Sekarang lihat, <code>direktori/sub direktori dan file A5.123456</code> sudah ada di <code>cabang master.</code></p>
+<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-A/Snapshoot/img/vscode-merge.png" alt="vscode-merge"></p>
+<h3 id="upload-perubahan">Upload Perubahan</h3>
+<hr>
+<p>Berikutnya, kita upload perubahan ke <code>Github</code>, karena langkah sebelumnya cuma menyimpan di lokal saja</p>
+<p>Repository yang kita <em>clone</em> dari Github, akan otomatis <code>membuat remote</code> bernama <code>origin.</code></p>
+<p>Untuk melihatnya, gunakan perintah</p>
+<pre><code class="language-git"><code><div>git remote -v
+</div></code></code></pre>
+<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-A/Snapshoot/img/vscode-3-git-remote-v.png" alt="vscode-remote-v"></p>
+<p>Alamat tujuan <em>push</em> dan <em>fetch</em> mengarah ke alamat repository di akun kita.</p>
+<p>Silahkan melakukan push dengan perintah berikut.</p>
+<pre><code class="language-git"><code><div>git push
+</div></code></code></pre>
+<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-A/Snapshoot/img/vscode-push.png" alt="vsode-push"></p>
+<p>Setelah selesai, coba lihat repository di akun Github-mu.</p>
+<p>Apakah berhasil di-push atau tidak?</p>
+<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-A/Snapshoot/img/vscode-github.png" alt="vscode-github"></p>
+<p>Kalau berhasil, silahkan lanjutkan ke langkah berikutnya.</p>
+<h3 id="membuat-pull-request">Membuat Pull Request</h3>
+<hr>
+<p><code>Pull Request</code> adalah istilah yang bisa kita artikan sebagai permintaan untuk menggabungkan kode.</p>
+<p>Kita sudah membuat perubahan di <code>repository hasil fork</code>, lalu ingin menggabungkan dengan <code>repository sumber.</code></p>
+<p>Maka kita harus membuat <code>Pull Request.</code></p>
+<p>Silahkan klik tombol <code>New Pull Request pada repository</code></p>
+<p><code>cek / compare</code> perubahan apa yang telah anda lakukan di <code>branch anda</code> pada <code>branch master milik repo pusat</code>,</p>
+<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-A/Snapshoot/img/vscode-pullrequest.png" alt="vscode-pullrequest"></p>
+<p>dan anda juga bisa <code>menyisipkan pesan</code> untuk memberitahukan <code>developer pemilik repo pusat</code> tentang apa yang anda lakukan, setelah yakin terhadap perubahan yang telah anda lakukan silahkan pilih <code>create pull request</code></p>
+<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-A/Snapshoot/img/vscode-create-pullrequest.png" alt="vsode-pullrequest"></p>
+<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-A/Snapshoot/img/vscode-pullrequest-f.png" alt="finish"></p>
+<p>Hooray!🎉Anda telah membuat kontribusi! anda tinggal menunggu pemilik repo pusat untuk menanggapi di terima tidaknya kontribusi anda.</p>
+<h3 id="setelah-pull-request-diterima">Setelah Pull Request Diterima</h3>
+<hr>
+<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-A/Snapshoot/img/vscode-marged.png" alt="vscode-merged"></p>
+<p>Horee …. 🥳🎉 Pull request kita diterima, biasanya akan ada tulisan <em>Merged</em> berwarna ungu. Selanjutnya apa yang kita lakukan?</p>
+<p>Bila pull request kita diterima, harusnya perubahan yang kita lakukan sudah ada di <code>upstream</code>. Coba kita lihat dulu.</p>
+<pre><code class="language-git"><code><div>git checkout master
+git pull
+</div></code></code></pre>
+<p>outpunya seperti ini</p>
+<pre><code class="language-git"><code><div>➜  PABWEB-X (master) ✔ git pull 
+Already up to date. 
+</div></code></code></pre>
+<p>Kondisi <code>master</code> kita sudah <strong>up to date</strong> dengan <code>upstream</code>. Sekarang lihat daftar perubahannya dengan perintah</p>
+<pre><code class="language-git"><code><div>git log --oneline
+</div></code></code></pre>
+<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-A/Snapshoot/img/git%20log%20--online.png" alt="git log --oneline"></p>
+<p>Karena perubahan kita sudah terkandung dalam <code>upstream</code>, kita bisa menghapus <code>topic branch</code> kita tadi.</p>
+<pre><code class="language-git"><code><div>git branch -D A5.123456
+</div></code></code></pre>
+<p>Hapus juga yang ada di Github</p>
+<pre><code class="language-git"><code><div>git push origin :A5.123456
+</div></code></code></pre>
+<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-A/Snapshoot/img/vscode-git-branch-D.png" alt="vscode-git-D"></p>
+<p>Artinya, push <strong>NULL</strong> ke <strong>origin</strong> untuk menggantikan <strong>A5.123456</strong>, atau bahasa gampangnya <strong>HAPUS</strong></p>
+<h3 id="referensi">Referensi</h3>
+<hr>
+<ol>
+<li><a href="https://nvie.com/posts/a-successful-git-branching-model/">nvie.com</a></li>
+<li><a href="https://try.github.io">try.github.io</a></li>
+</ol>
+
+    </body>
+    </html>
