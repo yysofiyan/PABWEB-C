@@ -14,4 +14,9 @@ class Hello extends CI_Controller {
 
 		echo $this->hello_model->helloRamdani();
 	}
+
+	public function hello_view()
+	{
+		$this->load->view('hello');
+	}
 }
