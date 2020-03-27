@@ -9,6 +9,12 @@
 
 <body>
 	<h3>Hello Ramdani</h3>
+
+	<?php
+	if (isset($mvc)) {
+		echo $mvc;
+	}
+	?>
 </body>
 
 </html>
