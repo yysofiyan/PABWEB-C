@@ -5,7 +5,7 @@ class Mahasiswa_model extends CI_Model
 	// metode result
 	public function lihatData()
 	{
-		return $this->db->get('mahasiswa')->result();
+		return $this->db->join('prodi', 'prodi.id_prodi = mahasiswa.id_prodi', 'left')->get('mahasiswa')->result();
 	}
 
 	public function metodeResultArray()
