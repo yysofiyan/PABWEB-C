@@ -7,4 +7,11 @@ class Hello extends CI_Controller {
 	{
 		echo "Hello Ramdani";
 	}
+
+	public function hello_model()
+	{
+		$this->load->model('hello_model');
+
+		echo $this->hello_model->helloRamdani();
+	}
 }
