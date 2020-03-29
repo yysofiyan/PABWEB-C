@@ -70,6 +70,7 @@ class Mahasiswa extends CI_Controller
 		];
 
 		$this->mahasiswa_model->insertData($data);
+		$this->session->set_flashdata('pesan', 'data berhasil disimpan.');
 
 		redirect('mahasiswa');
 	}

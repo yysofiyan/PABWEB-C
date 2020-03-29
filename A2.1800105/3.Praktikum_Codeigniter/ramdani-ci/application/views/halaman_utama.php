@@ -13,6 +13,9 @@
 		<li><?= anchor('mhs', 'Data Mahasiswa') ?></li>
 		<li><?= anchor('prodi', 'Data Program Studi') ?></li>
 	</ul>
+	<p><?= 'Selamat datang ' . $this->session->userdata('nama_lengkap') ?></p>
+	<p><?= anchor('auth/hapus_session', 'Hapus session nama') ?></p>
+	<?= anchor('logout', 'Logout') ?>
 </body>
 
 </html>
