@@ -6,6 +6,7 @@
 	<title>Mahasiswa</title>
 </head>
 <body>
+	<?=anchor('mahasiswa/tambah_data', 'Tambah Data')?>
 	<h3>Data Mahasiswa</h3>
 	<table border="2">
 		<thead>

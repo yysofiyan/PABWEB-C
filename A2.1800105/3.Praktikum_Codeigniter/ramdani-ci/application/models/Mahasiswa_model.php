@@ -22,4 +22,9 @@ class Mahasiswa_model extends CI_Model
 	{
 		return $this->db->where('id_mahasiswa', 1)->get('mahasiswa')->row_array();
 	}
+
+	public function insertData($data)
+	{
+		return $this->db->insert('mahasiswa', $data);
+	}
 }
