@@ -1,7 +1,7 @@
 # Repositori Praktikum Pengembangan Aplikasi Berbasis Web
 
 <p align="left">
-<a href="#"><img src="http://hits.dwyl.com/yysofiyan/PABWEB-C.svg"></a>
+<a href="#"><img src="https://hits.dwyl.com/yysofiyan/PABWEB-C.svg"></a>
 <a href="#"><img src="https://img.shields.io/bitbucket/pr-raw/yysofiyan/PABWEB-C?style=flat-square"></a>
 <a href="#"><img src="https://img.shields.io/github/repo-size/yysofiyan/PABWEB-C?style=flat-square"></a>
 <a href="#"><img src="https://img.shields.io/github/commit-activity/w/yysofiyan/PABWEB-C?style=flat-square"></a>
