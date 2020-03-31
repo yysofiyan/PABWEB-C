@@ -90,18 +90,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <a href="https://github.com/iqbalnurhayadin" title="Profile">👀</a>
     <a href="#" title="Talks">📢</a>
     <td align="center"><a href="#"><img src="https://avatars3.githubusercontent.com/u/61337964?s=400&u=256c416d14a70ae205f2fb00442d43cbbc0ecdad&v=4" width="100px;" alt=""/><br /><sub><b>Andini Putri Maharani</b></sub></a><br /><a href="https://github.com/andiniputrimr/PABWEB-C" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="https://github.com/andiniputrimr" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
-  </tr>
-  <tr>
-    <!-- Baris Ke 4 Mak 5 Akun-->
-    <td align="center"><a href="#"><img src="https://avatars3.githubusercontent.com/u/61338007?s=400&u=69efce7fd5fcc1675976fe114517883c846bbdbc&v=4" width="100px;" alt=""/><br /><sub><b>Puzi Rismala</b></sub></a><br /><a href="https://github.com/Puzira/PABWEB-C" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="https://github.com/Puzira" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
-  </tr>
-  <tr>
-   <!-- Baris Ke 5 Mak 5 Akun-->
-    
-  </tr>
-  <tr>
-
-  </tr>
+   <td align="center"><a href="#"><img src="https://avatars3.githubusercontent.com/u/61338007?s=400&u=69efce7fd5fcc1675976fe114517883c846bbdbc&v=4" width="100px;" alt=""/><br /><sub><b>Puzi Rismala</b></sub></a><br /><a href="https://github.com/Puzira/PABWEB-C" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
+<td align="center"><a href="#"><img src="https://media.giphy.com/media/lP8xu5t2DLGG045H8F/giphy.gif" width="100px;" alt=""/><br /><sub><b></b></sub></a><br /><a href="" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
+</tr>
 </table>
 
 <!-- markdownlint-enable -->
