@@ -32,9 +32,10 @@
 
 1. [Tools/Library](http://bit.ly/2tvgSYm) 📥 | *Gunakan 💌 Kampus*
 2. [Visual Studio Code](https://code.visualstudio.com) 📥
-3. [Modul Praktikum](https://github.com/yysofiyan/PABWEB-C/blob/master/Modul%20Praktikum%20Pengembangan%20Aplikasi%20Berbasis%20Web%20(1)%20(1)%20(2).pdf) 📥
-4. [Modul Praktikum Codeigniter](https://github.com/yysofiyan/PABWEB-C/tree/master/Modul%20Praktikum%20Codeigniter) 📥🔥
-5. [Modul Praktikum Laravel](#) 
+3. [Modul Praktikum Git & Github](https://github.com/yysofiyan/PABWEB-C/tree/master/Modul%20Praktikum%20Git%20%26%20Github) :octocat:
+4. [Modul Praktikum PHP7](https://github.com/yysofiyan/PABWEB-C/tree/master/Modul%20Praktikum%20PHP7) 📥
+5. [Modul Praktikum Codeigniter](https://github.com/yysofiyan/PABWEB-C/tree/master/Modul%20Praktikum%20Codeigniter) 📥🔥
+6. [Modul Praktikum Laravel](#) 
 
 ## Referensi 📖
 
