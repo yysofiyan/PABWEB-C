@@ -83,6 +83,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <a href="https://a2-1800069.000webhostapp.com/" title="Documentation">📖</a>
       <a href="https://github.com/iqbalnurhayadin" title="Profile">👀</a>
       <a href="#" title="Talks">📢</a></td>
+      </tr>
 
 
 
