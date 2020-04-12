@@ -67,9 +67,12 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="#"><img src="https://avatars0.githubusercontent.com/u/61607522?s=460&v=4" width="100px;" alt=""/><br /><sub><b>Aji Abdillah Gymnastiar</b></sub></a><br /><a href="https://github.com/ajiabdillahgymnastiar/PABWEB-C" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="https://github.com/ajiabdillahgymnastiar" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
     <td align="center"><a href="#"><img src="https://c7.uihere.com/files/706/515/789/computer-icons-facepalm-clip-art-share-icon-portable-network-graphics-vector-students.jpg" width="100px;" alt=""/><br /><sub><b>Sugih Sopian</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
    <td align="center"><a href="#"><img src="https://c7.uihere.com/files/706/515/789/computer-icons-facepalm-clip-art-share-icon-portable-network-graphics-vector-students.jpg" width="100px;" alt=""/><br /><sub><b>RIAN ANDIKA</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
+   
    <td align="center"><a href="#"><img src="https://c7.uihere.com/files/706/515/789/computer-icons-facepalm-clip-art-share-icon-portable-network-graphics-vector-students.jpg" width="100px;" alt=""/><br /><sub><b>Nida Nur Aini</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
-
+   
+   <td align="center"><a href="#"><img src="https://avatars3.githubusercontent.com/u/61337964?s=460&u=256c416d14a70ae205f2fb00442d43cbbc0ecdad&v=4" width="100px;" alt="" /><br /><sub><b>Andini Putri Maharani</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
   </tr>
+  
   <tr>
     <!-- Baris ke 3 Max 7 Akun-->
     <td align="center">
@@ -80,10 +83,12 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <a href="https://a2-1800069.000webhostapp.com/" title="Documentation">📖</a>
       <a href="https://github.com/iqbalnurhayadin" title="Profile">👀</a>
       <a href="#" title="Talks">📢</a></td>
-      <td align="center"><a href="#"><img src="https://avatars3.githubusercontent.com/u/61337964?s=460&u=256c416d14a70ae205f2fb00442d43cbbc0ecdad&v=4" width="100px;" alt="" /><br /><sub><b>Andini Putri Maharani</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
+
+
 
   <tr>
     <!-- Baris Ke 4 Mak 7 Akun-->
+
    
   </tr>
   <tr>
