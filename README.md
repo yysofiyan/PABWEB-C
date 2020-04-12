@@ -70,7 +70,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
    
    <td align="center"><a href="#"><img src="https://c7.uihere.com/files/706/515/789/computer-icons-facepalm-clip-art-share-icon-portable-network-graphics-vector-students.jpg" width="100px;" alt=""/><br /><sub><b>Nida Nur Aini</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
    
-   <td align="center"><a href="#"><img src="https://avatars3.githubusercontent.com/u/61337964?s=460&u=256c416d14a70ae205f2fb00442d43cbbc0ecdad&v=4" width="100px;" alt="" /><br /><sub><b>Andini Putri maharani</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
+   <td align="center"><a href="#"><img src="https://avatars3.githubusercontent.com/u/61337964?s=460&u=256c416d14a70ae205f2fb00442d43cbbc0ecdad&v=4" width="100px;" alt="" /><br /><sub><b>Andini Putri Maharani</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
   </tr>
 
   <tr>
@@ -84,10 +84,8 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <a href="https://github.com/iqbalnurhayadin" title="Profile">👀</a>
       <a href="#" title="Talks">📢</a></td>
       </tr>
-
-
-
-  <tr>
+      
+      <tr>
     <!-- Baris Ke 4 Mak 7 Akun-->
 
    
