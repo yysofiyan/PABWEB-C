@@ -58,17 +58,6 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="#"><img src="https://avatars0.githubusercontent.com/u/34052001?s=460&v=4" width="100px;" alt=""/><br /><sub><b>Yanyan Sofiyan, M.Kom</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
     <!-- Baris Pertama -->
     <!-- isi profile akun github anda di bawah baris ke 2 -->
-<<<<<<< HEAD
-
-  </tr>
-  <tr>
-     <!-- Baris 2 Max 7 Akun -->
-     <td align="center"><a href="#"><img src="https://c7.uihere.com/files/706/515/789/computer-icons-facepalm-clip-art-share-icon-portable-network-graphics-vector-students.jpg" width="100px;" alt=""/><br /><sub><b>ISI NAMA ANDA</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
-     <td align="center"><a href="#"><img src="https://c7.uihere.com/files/706/515/789/computer-icons-facepalm-clip-art-share-icon-portable-network-graphics-vector-students.jpg" width="100px;" alt=""/><br /><sub><b>ISI NAMA ANDA</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
-     <td align="center"><a href="#"><img src="https://c7.uihere.com/files/706/515/789/computer-icons-facepalm-clip-art-share-icon-portable-network-graphics-vector-students.jpg" width="100px;" alt=""/><br /><sub><b>ISI NAMA ANDA</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
-     <td align="center"><a href="#"><img src="https://github.com/account" width="100px;" alt=""/><br /><sub><b>Agung Sopian</b></sub></a><br /><a href="https://github.com/AgungSopian/PABWEB-C" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="https://github.com/AgungSopian" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
-
-=======
     <td align="center"><a href="#"><img 
         src="https://avatars3.githubusercontent.com/u/61339462?s=400&u=18856dff85f11daf3acc697b82265701f82a62a4&v=4" width="100px;"alt="Ramdani Surya M." /><br> <sub><b>Ramdani Surya Manggala<br>🥇🥇</b></sub></a><br><a href="https://github.com/A2-1800105/PABWEB-C" title="Link Repo">🔗</a><a href="#" title="Documentation">📖</a><a href="https://github.com/A2-1800105" title="Profile">👀</a><a href="#" title="Talks">📢</a></td>
     <td align="center"><a href="#"><img
@@ -82,11 +71,10 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="#"><img src="https://avatars1.githubusercontent.com/u/61367730?s=460&v=4" width="100px;"
         alt="" /><br /><sub><b>Cucum Eliyanti<br> 🥇🥇</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#"
         title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
->>>>>>> ef5a10870591b7e5f7d39ed279acaecdefacb2c6
   </tr>
   <tr>
 <!-- Baris 2 Max 5 Akun -->
-     <td align="center"><a href="#"><img src="isi foto profil anda" width="100px;" alt=""/><br /><sub><b>Agung sopian</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
+     <td align="center"><a href="#"><img src="https://avatars2.githubusercontent.com/u/61607261?s=460&u=a48bf280cd1031126227e545eb0d481f18007597&v=4" width="100px;" alt=""/><br /><sub><b>Agung Sopian</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
     <td align="center"><a href="#"><img src="https://avatars0.githubusercontent.com/u/61607522?s=460&v=4" width="100px;" alt=""/><br /><sub><b>Aji Abdillah Gymnastiar🥇</b></sub></a><br /><a href="https://github.com/ajiabdillahgymnastiar/PABWEB-C" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="https://github.com/ajiabdillahgymnastiar" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
     <td align="center"><a href="#"><img src="isi foto profil anda" width="100px;" alt=""/><br /><sub><b>Sugih Sopian</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
    <td align="center"><a href="#"><img src="isi foto profil anda" width="100px;" alt=""/><br /><sub><b>RIAN ANDIKA</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
