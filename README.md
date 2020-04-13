@@ -74,7 +74,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
 <!-- Baris 2 Max 5 Akun -->
-     <td align="center"><a href="#"><img src="https://avatars2.githubusercontent.com/u/61607261?s=460&u=a48bf280cd1031126227e545eb0d481f18007597&v=4" width="100px;" alt=""/><br /><sub><b>Agung Sopian</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
+     <td align="center"><a href="#"><img src="https://avatars2.githubusercontent.com/u/61607261?s=460&u=a48bf280cd1031126227e545eb0d481f18007597&v=4" width="100px;" alt=""/><br /><sub><b>Agung Sopian🥇</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
     <td align="center"><a href="#"><img src="https://avatars0.githubusercontent.com/u/61607522?s=460&v=4" width="100px;" alt=""/><br /><sub><b>Aji Abdillah Gymnastiar🥇</b></sub></a><br /><a href="https://github.com/ajiabdillahgymnastiar/PABWEB-C" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="https://github.com/ajiabdillahgymnastiar" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
     <td align="center"><a href="#"><img src="isi foto profil anda" width="100px;" alt=""/><br /><sub><b>Sugih Sopian</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
    <td align="center"><a href="#"><img src="isi foto profil anda" width="100px;" alt=""/><br /><sub><b>RIAN ANDIKA</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
@@ -88,16 +88,13 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <a href="https://a2-1800069.000webhostapp.com/" title="Documentation">📖</a>
     <a href="https://github.com/iqbalnurhayadin" title="Profile">👀</a>
        <a href="#" title="Talks">📢</a></td>
-    <td align="center"><a href="#"><img src="https://avatars3.githubusercontent.com/u/61337964?s=400&u=256c416d14a70ae205f2fb00442d43cbbc0ecdad&v=4" width="100px;" alt=""/><br /><sub><b>Andini Putri Maharani</b></sub></a><br /><a href="https://github.com/andiniputrimr/PABWEB-C" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="https://github.com/andiniputrimr" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
+    <td align="center"><a href="#"><img src="https://avatars3.githubusercontent.com/u/61337964?s=400&u=256c416d14a70ae205f2fb00442d43cbbc0ecdad&v=4" width="100px;" alt=""/><br /><sub><b>Andini Putri Maharani🥇</b></sub></a><br /><a href="https://github.com/andiniputrimr/PABWEB-C" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="https://github.com/andiniputrimr" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
    <td align="center"><a href="#"><img src="https://avatars3.githubusercontent.com/u/61338007?s=400&u=69efce7fd5fcc1675976fe114517883c846bbdbc&v=4" width="100px;" alt=""/><br /><sub><b>Puzi Rismala🥇</b></sub></a><br /><a href="https://github.com/Puzira/PABWEB-C" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
    <td align="center"><a href="#"><img src="https://avatars2.githubusercontent.com/u/61607424?s=400&u=77df00a97c4287659173404d183fc82473a963da&v=4" width="100px;" alt=""/><br /><sub><b>Dicky Setiawan</b></sub></a><br /><a href="https://github.com/dckyset/PABWEB-C" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="https://github.com/dckyset/" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
+    <td align="center"><a href="#"><img src="https://avatars3.githubusercontent.com/u/61581278?s=400&u=4" width="100px;" alt=""/><br /><sub><b>Siti Nurhayati🥇</b></sub></a><br /><a href="https://github.com/sitinurhayatii/PABWEB-C" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="https://github.com/sitinurhayatii" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
 <!--END BARIS KE TIGA-->
-     <!-- Baris Ke 4 Mak 7 Akun-->
-    <td align="center"><a href="#"><img src="https://avatars3.githubusercontent.com/u/61581278?s=400&u=4" width="100px;" alt=""/><br /><sub><b>Siti Nurhayati</b></sub></a><br /><a href="https://github.com/sitinurhayatii/PABWEB-C" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="https://github.com/sitinurhayatii" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
 <!--NEW USER BARU DISINI-->
-   <td align="center"><a href="#"><img src="https://avatars3.githubusercontent.com/u/61581278?s=400&u=4" width="100px;" alt=""/><br /><sub><b>Siti Nurhayati</b></sub></a><br /><a href="https://github.com/sitinurhayatii/PABWEB-C" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="https://github.com/sitinurhayatii" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
-
-
+     
 </table>
 
 <!-- markdownlint-enable -->
