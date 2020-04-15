@@ -8,6 +8,9 @@ Setelah praktikum ini dilakukan Anda diharapkan dapat:
 * Mempersiapkan `Git repository` lokal dan online pada `Github`.
 * Menghubungkan `repository lokal` dan `online.`
 * Menginstall Git Sesuai Sistem Operasi.
+* Mampu menjalankan git pada console/terminal dan mengkonfigurasi git.
+* Mampu membuat/menginisiasi repository pada lokal machine dan menguploadnya pada Github.
+* Mampu melakukan workflow git: modify-add-commit-push dari repo yang dibuat.
 
 ## Install Git dan Konfigurasi Awal
 

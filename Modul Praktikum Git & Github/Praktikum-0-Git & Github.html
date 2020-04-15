@@ -29,6 +29,9 @@
 <li>Mempersiapkan <code>Git repository</code> lokal dan online pada <code>Github</code>.</li>
 <li>Menghubungkan <code>repository lokal</code> dan <code>online.</code></li>
 <li>Menginstall Git Sesuai Sistem Operasi.</li>
+<li>Mampu menjalankan git pada console/terminal dan mengkonfigurasi git.</li>
+<li>Mampu membuat/menginisiasi repository pada lokal machine dan menguploadnya pada Github.</li>
+<li>Mampu melakukan workflow git: modify-add-commit-push dari repo yang dibuat.</li>
 </ul>
 <h2 id="install-git-dan-konfigurasi-awal">Install Git dan Konfigurasi Awal</h2>
 <ol>
@@ -135,7 +138,7 @@ yum install git
 <p>Setelah itu coba periksa versi yang terinstall dengan perintah:</p>
 <p><code>git version</code></p>
 <p>Pada laptop saya, versi yang terinstall adalah versi <code>2.24.1</code></p>
-<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-C/Snapshoot/git-version.png" alt="git version"></p>
+<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-A/Snapshoot/git-version.png" alt="git version"></p>
 <hr>
 <h2 id="connecting-to-a-remote-repository">Connecting to a Remote Repository</h2>
 <hr>
@@ -152,7 +155,7 @@ yum install git
 <h6 id="meskipun-dimungkinkan-untuk-menggunakan-aplikasi-berbasis-gui-misalkan-built-in-git-gui-gitkraken-vscodesourcetree-atau-aplikasi-lainya-saya-sangat-menyarankan-untuk-menggunakan-perintah-git-dari-shell">Meskipun dimungkinkan untuk menggunakan aplikasi berbasis GUI, misalkan built-in Git GUI, GitKraken, VsCode,SourceTree atau aplikasi lainya, saya sangat menyarankan untuk menggunakan perintah <code>Git dari shell</code>.</h6>
 <h6 id="shell-adalah-lingkungan-denominator-umum-terendah-yang-tersedia-untuk-anda-selama-pengembangan-web-terutama-ketika-harus-menerapkan-aplikasi-web-ke-remote-server-akan-berguna-juga-untuk-mengetahui-perintah-perintah-shell-atau-git-ketika-kita-tidak-dapat-memiliki-lingkungan-grafis-plus-mengeksekusi-perintah-dengan-mengetik-jauh-lebih-cepat-daripada-point-and-click-pada-gui">Shell adalah lingkungan denominator umum terendah yang tersedia untuk Anda selama pengembangan Web, terutama ketika harus menerapkan aplikasi Web ke remote server. Akan berguna juga untuk mengetahui perintah-perintah shell atau Git, ketika kita tidak dapat memiliki lingkungan grafis. Plus, mengeksekusi perintah dengan mengetik jauh lebih cepat daripada point-and-click pada GUI.</h6>
 <p>untuk mengetahui apakah git sudah benar ter-install atau tidak, bisa melakukan pengecekan melalui <code>terminal/cmd</code> dengan mengetikan kata <code>git</code>. Jika hasil keluaran seperti pada Gambar berikut, maka instalasi berhasil.</p>
-<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-C/Snapshoot/Screen%20Shot%202020-02-18%20at%206.27.16%20PM.png" alt="cek-git"></p>
+<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-A/Snapshoot/Screen%20Shot%202020-02-18%20at%206.27.16%20PM.png" alt="cek-git"></p>
 <p>Ada beberapa konfigurasi awal yang harus dupersiapkan sebelum mulai menggunakan Git, seperti <code>nama dan email</code>. Silahkan lakukan konfigurasi dengan perintah berikut ini.</p>
 <pre><code class="language-markdown"><div>git config --global user.name "username"
 git config --global user.email "email"
@@ -221,34 +224,34 @@ core.excludesfile=/Users/yysofiyan/.gitignore_global
 <ol>
 <li>Langkah selanjutnya, buat sebuah folder <code>repository project</code>. Pada contoh ini, saya menggunakan nama folder dengan menggunakan nomor NIDN ( Nomor Induk Dosen Nasional)<code>“0416078903”</code>. Silahkan anda menggunakan <code>Nomor NIM anda masing-masing</code>.</li>
 </ol>
-<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-C/Snapshoot/Screen%20Shot%202020-02-18%20at%207.51.09%20PM.png" alt="#1"></p>
+<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-A/Snapshoot/Screen%20Shot%202020-02-18%20at%207.51.09%20PM.png" alt="#1"></p>
 <h6 id="memilih-folder-project"><em>memilih folder project</em></h6>
 <p>Kemudian drag folder tersebut ke <code>Terminal/command Prompt</code> atau open with git bash</p>
-<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-C/Snapshoot/Screen%20Shot%202020-02-18%20at%207.55.40%20PM.png" alt="#2"></p>
+<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-A/Snapshoot/Screen%20Shot%202020-02-18%20at%207.55.40%20PM.png" alt="#2"></p>
 <p>Langkah selanjutnya adalah sebagai berikut:</p>
 <p>ketik perintah</p>
 <pre><code class="language-git"><code><div>1. git init
 </div></code></code></pre>
-<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-C/Snapshoot/Screen%20Shot%202020-02-18%20at%207.58.18%20PM.png" alt="#3"></p>
+<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-A/Snapshoot/Screen%20Shot%202020-02-18%20at%207.58.18%20PM.png" alt="#3"></p>
 <p><code>Git init</code> akan menghasilkan <code>folder .git</code> sebagai tanda jika repository local sudah dibuat.<code> Folder .git ini bersifat hidden</code></p>
 <pre><code class="language-git"><code><div>2. git status
 </div></code></code></pre>
-<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-C/Snapshoot/Screen%20Shot%202020-02-18%20at%208.03.21%20PM.png" alt="#4"></p>
+<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-A/Snapshoot/Screen%20Shot%202020-02-18%20at%208.03.21%20PM.png" alt="#4"></p>
 <p>Pada Gambar di atas, menunjukan belum ada file yang ditambahkan. Selanjutnya, tambahkan file <code>*.txt</code> pada folder <code>“0416078903” (silahkan di sesuaikan dengan folder kalian)</code>.</p>
-<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-C/Snapshoot/Screen%20Shot%202020-02-18%20at%208.10.10%20PM.png" alt="#5"></p>
+<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-A/Snapshoot/Screen%20Shot%202020-02-18%20at%208.10.10%20PM.png" alt="#5"></p>
 <p>Lalu lakukan</p>
 <pre><code class="language-git"><code><div>3. git status
 </div></code></code></pre>
 <p>kembali, hasilnya akan seperti pada gambar di bawah ini</p>
-<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-C/Snapshoot/Screen%20Shot%202020-02-18%20at%208.13.34%20PM.png" alt="#6"></p>
+<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-A/Snapshoot/Screen%20Shot%202020-02-18%20at%208.13.34%20PM.png" alt="#6"></p>
 <p>Hasil dari <code>git status</code> terlihat jika ada <code>file baru</code> yang belum ditambahkan ke dalam <code>repository local</code>. File tersebut dengan nama <code>hello.rtf</code>. seperti yang sudah dijelaskan sebelumnya, git status akan menampilkan file baru atau file yang dimodifikasi dengan <code>warna merah</code>. File tersebut harus ditambahkan ke dalam <code>repository local</code> dengan menggunakan perintah <code>git add</code> seperti pada langkah selanjutnya.</p>
 <pre><code class="language-git"><code><div>4.git add *
 </div></code></code></pre>
 <p>Tanda <code>*</code> pada git add adalah untuk menambahkan semua file ke dalam <code>repository</code>. Bisa saja hanya menuliskan nama file nya saja, seperti <code>git add hello.rtf</code>. setelah melakukan <code>git add</code>, lakukan pengecekan dengan melakukan perintah <code>git status</code>. Hasil dari <code>git status</code>, nama file yang berhasil ditambahkan akan berwarna hijau seperti pada gambar di bawah ini.</p>
-<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-C/Snapshoot/Screen%20Shot%202020-02-18%20at%208.28.07%20PM.png" alt="#7"></p>
+<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-A/Snapshoot/Screen%20Shot%202020-02-18%20at%208.28.07%20PM.png" alt="#7"></p>
 <pre><code class="language-git"><code><div>5. git commit
 </div></code></code></pre>
-<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-C/Snapshoot/Screen%20Shot%202020-02-18%20at%208.33.14%20PM.png" alt="#8"></p>
+<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-A/Snapshoot/Screen%20Shot%202020-02-18%20at%208.33.14%20PM.png" alt="#8"></p>
 <h5 id="sederhananya-commit-berarti-perubahan-yang-baru-saja-anda-lakukan-di-lokal-repository-perubahan-dapat-terdiri-dari-menambahkan-mengubah-atau-menghapus-satu-atau-lebih-file">Sederhananya, <code>commit</code> berarti perubahan yang baru saja Anda lakukan di <code>lokal repository</code>. Perubahan dapat terdiri dari <code>menambahkan, mengubah, atau menghapus satu atau lebih file</code></h5>
 <p>Setelah Anda selesai menulis <code>pesan commit</code>, konfigurasikan <code>author </code>yang berisi <code>nama dan email</code> dengan menggunakan perintah seperti di bawah ini:</p>
 <pre><code class="language-git"><code><div>➜  0416078903 (master) ✔ git config --global user.name &quot;yysofiyan&quot;
@@ -257,7 +260,7 @@ core.excludesfile=/Users/yysofiyan/.gitignore_global
 </div></code></code></pre>
 <pre><code class="language-git"><code><div>6. git log
 </div></code></code></pre>
-<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-C/Snapshoot/Screen%20Shot%202020-02-18%20at%208.52.47%20PM.png" alt="#9"></p>
+<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-A/Snapshoot/Screen%20Shot%202020-02-18%20at%208.52.47%20PM.png" alt="#9"></p>
 <p><code>Git log</code> berfungsi untuk menampilkan <code>history dari commit yang telah dilakukan</code>. Semua commit yang telah dilakukan akan ditampilkan seperti pada Gambar di atas. Jika terdapat perubahan kembali pada folder “0416078903” seperti menambahkan file baru atau melakukan modifikasi pada file <code>“hello.rtf”</code>, maka untuk menambahkan pada repository local lakukan perintah di mulai dari git status hingga git commit.</p>
 <!---------------------------------------------------------------->
 <p>Anda baru saja membuat <code>Git repository lokal</code> dan mulai melacak perubahan pada file dalam repository. Jika Anda akan membagi pekerjaan Anda dengan tutor Anda atau teman lain, Anda harus memiliki repository yang dapat diakses melalui Internet. Untuk melakukannya, Anda perlu menempatkan salinan <code>lokal repository</code> Anda dalam <code>layanan hosting Git online</code> bernama <code>Github</code>.</p>
@@ -266,18 +269,18 @@ core.excludesfile=/Users/yysofiyan/.gitignore_global
 <li>Gunakan akun yang sudah anda buat.</li>
 <li>Buat <code>repository</code> baru bernama <code>NIM_ANDA</code> dan masuk ke halaman repository. Pastikan Anda mengatur visibilitas ke <code>Publik</code>. Kemudian <code>Create Repository</code></li>
 </ol>
-<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-C/Snapshoot/Screen%20Shot%202020-02-18%20at%209.20.33%20PM.png" alt="#10"></p>
+<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-A/Snapshoot/Screen%20Shot%202020-02-18%20at%209.20.33%20PM.png" alt="#10"></p>
 <ol start="4">
 <li>Temukan bagian bernama <code>URL</code>. Perhatikan bahwa ada dua jenis <code>URL</code> : <code>HTTPS</code> dan <code>SSH</code>. Catat URL untuk <code>HTTPS</code>. Lihat gambar berikut :</li>
 </ol>
-<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-C/Snapshoot/Screen%20Shot%202020-02-18%20at%209.28.37%20PM.png" alt="#11"></p>
+<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-A/Snapshoot/Screen%20Shot%202020-02-18%20at%209.28.37%20PM.png" alt="#11"></p>
 <ol start="5">
 <li>Perbarui <code>Git repository</code> <code>lokal Anda</code> sehingga <code>commit</code> Anda nanti dapat disimpan di Github juga. Gunakan perintah <code>git remote add</code> dan gunakan URL kloning sebagai argumen untuk perintah : <code>git remote add origin &lt;CLONEURL&gt;</code></li>
 </ol>
 <p><strong>Contoh:</strong></p>
 <pre><code class="language-git"><code><div>git remote add origin https://github.com/yysofiyan/0416078903.git
 </div></code></code></pre>
-<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-C/Snapshoot/Screen%20Shot%202020-02-18%20at%209.40.32%20PM.png" alt="#12"></p>
+<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-A/Snapshoot/Screen%20Shot%202020-02-18%20at%209.40.32%20PM.png" alt="#12"></p>
 <h5 id="git-remote-add-origin-memberitahu-repositori-lokal-untuk-menambahkan-path-bernama-origin-yang-menunjuk-ke-url-yang-diberikan-dengan-mengkonfigurasi-path-ini-di-lokal-repository-anda-akan-dapat-menyimpan-commit-anda-ke-online-repository-juga-menggunakan-perintah-git-push"><code>git remote add origin</code> memberitahu repositori lokal untuk menambahkan <code>path bernama origin</code> yang menunjuk ke URL yang diberikan. Dengan mengkonfigurasi path ini di lokal repository, Anda akan dapat menyimpan commit Anda ke online repository juga menggunakan perintah <code>git push</code>.</h5>
 <ol start="6">
 <li>Untuk menyimpan <em>commit</em> Anda ke dalam <em>online repository</em> Anda di Github, jalankan perintah <code>git push</code>. Anda harus menentukan <em>remote</em> path dan <em>remote branch</em> yang akan diunggah (atau di-<strong>push</strong>).</li>
@@ -287,12 +290,12 @@ core.excludesfile=/Users/yysofiyan/.gitignore_global
 <p><strong>Contoh:</strong></p>
 <pre><code class="language-git"><code><div>git push -u origin master
 </div></code></code></pre>
-<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-C/Snapshoot/Screen%20Shot%202020-02-18%20at%209.48.42%20PM.png" alt="#13"></p>
+<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-A/Snapshoot/Screen%20Shot%202020-02-18%20at%209.48.42%20PM.png" alt="#13"></p>
 <h5 id="git-push-memberitahu-git-untuk-mendorong-commit-di-cabang-master-lokal-anda-ke-repository-yang-ditunjuk-oleh-remote-origin-opsi--u-memastikan-panggilan-git-push-berikutnya-akan-dikirim-ke-cabang-master-dari-path-origin"><code>git push</code> memberitahu Git untuk mendorong <em>commit</em> di cabang <strong>master</strong> lokal Anda ke <em>repository</em> yang ditunjuk oleh remote <strong>origin</strong>. opsi <code>-u</code> memastikan panggilan <strong>git push</strong> berikutnya akan dikirim ke cabang <strong>master</strong> dari <strong>path origin</strong>.</h5>
 <ol start="7">
 <li>Periksa halaman <strong>Github repository</strong> Anda. Anda akan melihat bahwa file-file Anda telah disimpan dan dapat diakses di Github.</li>
 </ol>
-<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-C/Snapshoot/Screen%20Shot%202020-02-18%20at%209.58.50%20PM.png" alt="#14"></p>
+<p><img src="file:////Users/yysofiyan/Desktop/MATERI STMIK-19/PABWeb-Genap/Repositori/PABWEB-A/Snapshoot/Screen%20Shot%202020-02-18%20at%209.58.50%20PM.png" alt="#14"></p>
 <h1 id="referensi-%f0%9f%94%a5">Referensi 🔥</h1>
 <ol>
 <li><a href="https://hackernoon.com/top-5-free-courses-to-learn-git-and-github-best-of-lot-2f394c6533b0">hackernoon.com</a></li>
