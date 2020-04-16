@@ -61,7 +61,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="#"><img 
         src="https://avatars3.githubusercontent.com/u/61339462?s=400&u=18856dff85f11daf3acc697b82265701f82a62a4&v=4" width="100px;"alt="Ramdani Surya M." /><br> <sub><b>Ramdani Surya Manggala<br>🥇🥇</b></sub></a><br><a href="https://github.com/A2-1800105/PABWEB-C" title="Link Repo">🔗</a><a href="#" title="Documentation">📖</a><a href="https://github.com/A2-1800105" title="Profile">👀</a><a href="#" title="Talks">📢</a></td>
     <td align="center"><a href="#"><img
-        src="#"
+        src="https://avatars1.githubusercontent.com/u/61530718?s=460&u=d0d8f57425c47ba81fb033a793da7f56e6a4aa3e&v=4"
         width="100px;" alt="" /><br /><sub><b>Melina Wida Winingsih</b></sub></a><br /><a href="#"
         title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#"title="Talks">📢</a></td>
     <td align="center"><a href="#"><img

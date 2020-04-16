@@ -146,7 +146,7 @@ else{
 while($data = mysqli_fetch_assoc($query)) {?>
     <tr>
     <td width="30" class="center"><?php echo $no; ?></td>
-    <td width="45"><img class="foto_thumbnail" src='foto/<?php echo $data['foto'];?>' alt="foto siswa"></td>
+    <td width="45"><img class="foto-thumbnail" src='foto/<?php echo $data['foto'];?>' alt="foto siswa"></td>
 <td width="80" class="center"><?php echo $data['nis']; ?></td>
 <td width="180"><?php echo $data['nama'] ?></td>
 <td width="180"><?php echo $data['tempat_lahir']; ?>, <?php echo date('d-m-Y', strtotime($data['tanggal_lahir'])); ?></td>
