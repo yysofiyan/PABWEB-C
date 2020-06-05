@@ -95,7 +95,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!--END BARIS KE TIGA-->
 <!--NEW USER BARU DISINI-->
      <tr><td align="center"><a href="#"><img src="https://avatars1.githubusercontent.com/u/61607825?s=460&u=5298dac3ebae04d0eecc37ba84b8a924acfb1549&v=4" width="100px;" alt=""/><br /><sub><b>Jujun Supendi<br>🥇🥇</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td><
-     <td align="center"><a href="#"><img src="https://avatars3.githubusercontent.com/u/61607389?s=460&u=15309d98072f24dafebf50f3e46b87e8ccbde20c&v=4" width="100px;" alt=""/><br /><sub><b>Riza Suparman</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>/tr>
+     <td align="center"><a href="#"><img src="https://avatars3.githubusercontent.com/u/61607389?s=460&u=15309d98072f24dafebf50f3e46b87e8ccbde20c&v=4" width="100px;" alt=""/><br /><sub><b>Riza Suparman</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td></tr>
 </table>
 
 <!-- markdownlint-enable -->
