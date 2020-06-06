@@ -11,12 +11,12 @@ class Hello extends CI_Controller {
 
 	public function index()
 	{
-		echo "Hello Ramdani";
+		echo "Hello Mardira";
 	}
 
 	public function hello_model()
 	{
-		echo $this->hello_model->helloRamdani();
+		echo $this->hello_model->hellomardira();
 	}
 
 	public function hello_view()
@@ -26,7 +26,7 @@ class Hello extends CI_Controller {
 
 	public function hello_mvc()
 	{
-		$data['mvc'] = $this->hello_model->ramdaniMVC();
+		$data['mvc'] = $this->hello_model->mardira();
 		
 		$this->load->view('hello', $data);
 	}

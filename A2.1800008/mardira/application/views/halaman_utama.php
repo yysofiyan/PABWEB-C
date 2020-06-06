@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>A2.1800105 | Ramdani Surya M.</title>
+	<title>Mardira</title>
 </head>
 
 <body>

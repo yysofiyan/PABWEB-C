@@ -2,12 +2,12 @@
 
 class Hello_model extends CI_Model
 {
-	public function helloRamdani()
+	public function hellomardira()
 	{
-		return "Hello Ramdani";
+		return "Hello Aji";
 	}
 
-	public function ramdaniMVC()
+	public function aji()
 	{
 		return "Ini menggunakan MVC.";
 	}
