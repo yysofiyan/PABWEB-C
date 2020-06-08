@@ -94,7 +94,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="#"><img src="https://avatars3.githubusercontent.com/u/61581278?s=400&u=4" width="100px;" alt=""/><br /><sub><b>Siti Nurhayati🥇</b></sub></a><br /><a href="https://github.com/sitinurhayatii/PABWEB-C" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="https://github.com/sitinurhayatii" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
 <!--END BARIS KE TIGA-->
 <!--NEW USER BARU DISINI-->
-     <tr><td align="center"><a href="#"><img src="https://avatars1.githubusercontent.com/u/61607825?s=460&u=5298dac3ebae04d0eecc37ba84b8a924acfb1549&v=4" width="100px;" alt=""/><br /><sub><b>Jujun Supendi<br>🥇🥇</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td></tr>
+     <tr><td align="center"><a href="#"><img src="https://avatars1.githubusercontent.com/u/61607825?s=460&u=5298dac3ebae04d0eecc37ba84b8a924acfb1549&v=4" width="100px;" alt=""/><br /><sub><b>Jujun Supendi<br>🥇🥇</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
+     <td align="center"><a href="#"><img src="https://avatars0.githubusercontent.com/u/61607709?s=460&u=7c9849afa259c151e84c394e6cc8c196df56399c&v=4" width="100px;" alt=""/><br /><sub><b>Rizki Abdul Hamid</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
+     </tr>
 </table>
 
 <!-- markdownlint-enable -->
