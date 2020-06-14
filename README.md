@@ -100,6 +100,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
      <td align="center"><a href="#"><img src="https://avatars1.githubusercontent.com/u/61768437?s=460&u=a478896f2d5c60df1d5d83552dde886b8ff02b83&v=4" width="100px;" alt=""/><br /><sub><b>Tiara Taufik Shobirin</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
      <td align="center"><a href="#"><img src="https://avatars3.githubusercontent.com/u/61607389?s=460&u=15309d98072f24dafebf50f3e46b87e8ccbde20c&v=4" width="100px;" alt=""/><br /><sub><b>Riza Suparman</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
      </tr>
+     <tr>
+     <td align="center"><a href="#"><img src="https://avatars2.githubusercontent.com/u/61607405?s=460&u=1ba518c0176a36eb4814d36a2f4e4f41c216dec8&v=4" width="100px;" alt=""/><br /><sub><b>Luthfi Izzuddin</b></sub></a><br /><a href="#" title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#" title="Talks">📢</a></td>
+     </tr>
 </table>
 
 <!-- markdownlint-enable -->
