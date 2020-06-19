@@ -65,7 +65,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
         width="100px;" alt="" /><br /><sub><b>Melina Wida Winingsih<br>🥇</b></sub></a><br /><a href="#"
         title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#"title="Talks">📢</a></td>
     <td align="center"><a href="#"><img
-        src="#"
+        src="https://avatars2.githubusercontent.com/u/61767677?s=460&u=319b7c5d04818291d3d8a1995052f0952f145885&v=4"
         width="100px;" alt="" /><br /><sub><b>DAVO ALGIYANA JANIAR</b></sub></a><br /><a href="#"
         title="Link Repo">🔗</a> <a href="#" title="Documentation">📖</a> <a href="#" title="Profile">👀</a> <a href="#"title="Talks">📢</a></td>
     <td align="center"><a href="#"><img src="https://avatars1.githubusercontent.com/u/61367730?s=460&v=4" width="100px;"
